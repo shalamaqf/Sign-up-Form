@@ -61,8 +61,30 @@
                   <input type="tel" id="user-phonenumber" name="user_phonenumber">
                 </div>
               </div>
-              <div>
-
+              <!-- password & confirm  password -->
+              <div class="field password-confirm">
+                <div class="password">
+                  <label for="user-password">PASSWORD</label>
+                  <input 
+                    type="password" 
+                    id="user-password" 
+                    name="user_password"
+                    minlength="7"
+                    maxlength="15"
+                    pattern="^[\w\s]{7,15}$"
+                    required>
+                </div>
+                <div class="confirm">
+                  <label for="confirm-password">CONFIRM PASSWORD</label>
+                  <input 
+                    type="password" 
+                    id="confirm-password" 
+                    name="confirm_password"
+                    minlength="7"
+                    maxlength="15"
+                    pattern="^[\w\s]{7,15}$"
+                    required>
+                </div>
               </div>
             </div>
             <div>
