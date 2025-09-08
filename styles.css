@@ -18,10 +18,20 @@ body {
 .main-container {
   display: flex;
   justify-content: center;
-  align-items: center;
 
   width: 100%;
   max-width: 700px;
+  height: 100vh;
   margin: 0 auto;
-  padding: 0 1rem;
+}
+
+.brand-container {
+  position: relative;
+  flex: 1;
+}
+
+#brand-image {
+  height: 100vh;
+  width: auto;
+  object-fit: cover;
 }
