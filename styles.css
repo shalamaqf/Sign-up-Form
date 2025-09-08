@@ -35,3 +35,11 @@ body {
   width: auto;
   object-fit: cover;
 }
+
+#overlay-credit {
+  position: absolute;
+  font-size: 0.75rem;
+
+  bottom: 10px;
+  left: 200px;
+}
