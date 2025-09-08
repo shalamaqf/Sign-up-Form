@@ -71,3 +71,10 @@ body {
   font-size: 5em;
   font-family: 'myFont', sans-serif;
 }
+
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  height: 100%;
+}
