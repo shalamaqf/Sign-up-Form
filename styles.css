@@ -1,3 +1,4 @@
+/* font */
 @font-face {
   font-family: 'myFont';
   src: url(font/norse-bold-webfont.woff2) format(woff2),
@@ -7,6 +8,7 @@
   font-display: swap;
 }
 
+/* css reset */
 * {
   margin: 0;
   padding: 0;
@@ -51,4 +53,20 @@ body {
 
   bottom: 10px;
   left: 200px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  padding: 0.5em;
+
+  top: 200px;
+}
+
+#brand-name {
+  font-size: 5em;
+  font-family: 'myFont', sans-serif;
 }
