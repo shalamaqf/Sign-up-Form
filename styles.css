@@ -192,3 +192,34 @@ input {
 .confirm {
   padding-top: 1em;
 }
+
+.form-actions {
+  position: relative;
+  min-height: 260px;
+}
+
+.form-actions button,
+.form-actions p {
+  position: absolute;
+}
+
+button { 
+  width: 196px;
+  height: 42px;
+  left: 5%;
+  top: 10.5%;
+
+  border: none;
+  border-radius: 5px;
+
+  font-size: 0.925em;
+  font-weight: 600;
+}
+
+.form-actions p {
+  left: 5%;
+  top: 37%;
+
+  font-size: 0.92rem;
+  transform: scaleY(1.05);
+}
