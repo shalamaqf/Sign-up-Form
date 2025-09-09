@@ -241,5 +241,9 @@ body {
 }
 
 figcaption a {
-  color: white;s
+  color: white
+}
+
+#hero {
+  background-color: #f5f5f5;
 }
