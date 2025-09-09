@@ -97,7 +97,7 @@ body {
 
 #hero {
   position: relative;
-  flex: 1 1 6.5%; 
+  flex: 1 1 4.5%; 
 }
 
 .paragraph-hero-1 {
@@ -110,7 +110,7 @@ body {
   transform-origin: bottom;
   line-height: 1.2;
   
-  top: 45%;
+  top: 46%;
   left: 5%;
   right: 17%;
 }
@@ -125,11 +125,70 @@ body {
   transform-origin: bottom;
   line-height: 1.2;
 
-  bottom: 20%;
+  bottom: 17%;
   left: 5%;
   right: 17%;
 }
 
 form {
   flex: 2;
+}
+
+.form-body {
+  min-height: 250px;
+  flex-direction: column;
+  
+  padding: 0.90em 3em 1em 2.4em;
+}
+
+h1 {
+  font-size: 1.20em;
+  display: inline-block;
+  transform: scaleY(1.05);
+  transform-origin: bottom;
+  line-height: 1.2;
+}
+
+.field {
+  display: flex;
+  min-height: 50px;
+  padding-bottom: 0.05em;
+}
+
+label,
+input {
+  display: block;
+}
+
+label {
+  font-size: 0.625rem;
+  letter-spacing: 0.12em;
+}
+
+input {
+  width: 215px;
+  height: 26px;
+  padding-left: 6px;
+  border-radius: 4px;
+  border: 0.5px solid #E5E7EB;
+
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.first-last-name,
+.email,
+.password {
+  padding-top: 1em;
+}
+
+.last-name,
+.phonenumber,
+.confirm {
+  padding-left: 4em;
+}
+
+.phonenumber,
+.confirm {
+  padding-top: 1em;
 }
