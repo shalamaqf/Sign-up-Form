@@ -53,10 +53,10 @@ body {
 
 #overlay-credit {
   position: absolute;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
 
-  bottom: 10px;
-  left: 30%;
+  bottom: 1%;
+  left: 32.5%;
 }
 
 .logo-container {
@@ -234,4 +234,12 @@ body {
 
 #brand-name {
   color: white
+}
+
+#overlay-credit {
+  color: white;
+}
+
+figcaption a {
+  color: white;s
 }
