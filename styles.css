@@ -8,12 +8,14 @@
   font-display: swap;
 }
 
+
 /* css reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 
 /* layout */
 body {
@@ -222,4 +224,10 @@ button {
 
   font-size: 0.92rem;
   transform: scaleY(1.05);
+}
+
+
+/* styling */
+body {
+  background-color: #1c1c1e;
 }
