@@ -39,7 +39,7 @@ body {
 
 .brand-container {
   position: relative;
-  flex: 1 1 5%;
+  flex: 1 1 6%;
   min-width: 200px;
 }
 
@@ -78,4 +78,43 @@ body {
   flex-direction: column;
   flex: 2;
   height: 100%;
+}
+
+#hero {
+  position: relative;
+  flex: 1 1 6.5%; 
+}
+
+.paragraph-hero-1 {
+  position: absolute;
+  font-size: 1.20rem;
+  font-weight: 600;
+  
+  display: inline-block;
+  transform: scaleY(1.05);
+  transform-origin: bottom;
+  line-height: 1.2;
+  
+  top: 45%;
+  left: 5%;
+  right: 17%;
+}
+
+.paragraph-hero-2 {
+  position: absolute;
+  font-size: 1.20rem;
+  font-weight: 600;
+
+  display: inline-block;
+  transform: scaleY(1.05);
+  transform-origin: bottom;
+  line-height: 1.2;
+
+  bottom: 20%;
+  left: 5%;
+  right: 17%;
+}
+
+form {
+  flex: 2;
 }
