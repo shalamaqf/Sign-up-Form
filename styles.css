@@ -25,7 +25,7 @@ body {
 
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   overflow: hidden;
 }
 
@@ -35,14 +35,16 @@ body {
 
   width: 100%;
   max-width: 1200px;
-  height: 100vh;
+  height: 100%;
   margin: 0 auto;
+  padding: 1rem;
 }
 
 .brand-container {
   position: relative;
   flex: 1 1 6%;
   min-width: 200px;
+  height: 100%;
 }
 
 #brand-image {
@@ -93,53 +95,53 @@ body {
   display: flex;
   flex-direction: column;
   flex: 2;
-  height: 100%;
+  height: 100vh;
 }
 
 #hero {
-  position: relative;
-  flex: 1 1 4.5%; 
+  flex: 1;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .paragraph-hero-1 {
-  position: absolute;
   font-size: 1.20rem;
   font-weight: 600;
+  padding-top: 4.5em;
+  padding-right: 4em;
+  padding-left: 1em;
   
   display: inline-block;
   transform: scaleY(1.05);
   transform-origin: bottom;
   line-height: 1.2;
-  
-  top: 46%;
-  left: 5%;
-  right: 17%;
 }
 
 .paragraph-hero-2 {
-  position: absolute;
   font-size: 1.20rem;
   font-weight: 600;
+  padding-left: 1em;
 
   display: inline-block;
   transform: scaleY(1.05);
   transform-origin: bottom;
   line-height: 1.2;
-
-  bottom: 17%;
-  left: 5%;
-  right: 17%;
 }
 
 form {
-  flex: 2;
+  flex: 2 1 9%;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-body {
-  min-height: 250px;
+  flex: 1;
   flex-direction: column;
   
-  padding: 0.90em 3em 1em 2.4em;
+  padding: 0.90em 3em 0em 2.7em;
 }
 
 h1 {
@@ -152,7 +154,8 @@ h1 {
 
 .field {
   display: flex;
-  min-height: 50px;
+  flex-wrap: wrap;
+  gap: 1.5rem;
   padding-bottom: 0.06em;
 }
 
@@ -167,8 +170,9 @@ label {
 }
 
 input {
-  width: 217px;
-  height: 26.5px;
+  width: 100%;
+  max-width: 250px;
+  height: 1.8em;
   padding-left: 6px;
   border-radius: 3px;
   border: 0.5px solid #E5E7EB;
@@ -195,20 +199,20 @@ input {
 }
 
 .form-actions {
-  position: relative;
-  min-height: 295px;
-}
-
-.form-actions button,
-.form-actions p {
-  position: absolute;
+  flex: 1;
+  padding: 3rem;
+  padding-top: 2em;
+  padding-left: 2.5em;  
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 button { 
-  width: 196px;
+  width: 100%;
+  max-width: 200px;
+  align-self: flex-start;
   height: 42px;
-  left: 5%;
-  top: 10.5%;
 
   border: none;
   border-radius: 5px;
@@ -218,9 +222,6 @@ button {
 }
 
 .form-actions p {
-  left: 5%;
-  top: 34%;
-
   font-size: 0.92rem;
   transform: scaleY(1.05);
 }
