@@ -254,3 +254,7 @@ figcaption a {
   position: relative;
   z-index: 10;
 }
+
+.form-actions {
+  background-color: #f5f5f5;
+}
