@@ -269,3 +269,11 @@ button {
   color: #333333;
   font-weight: bold;
 }
+
+
+/* pseudo class */
+input:focus {
+  outline: none;
+  border: 1px solid #799bff;
+  box-shadow: 0 4px 13px -5px rgba(0, 0, 0, 0.4);
+}
