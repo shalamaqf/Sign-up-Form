@@ -154,7 +154,7 @@ h1 {
 .field {
   display: flex;
   min-height: 50px;
-  padding-bottom: 0.05em;
+  padding-bottom: 0.06em;
 }
 
 label,
@@ -168,10 +168,10 @@ label {
 }
 
 input {
-  width: 215px;
-  height: 26px;
+  width: 217px;
+  height: 26.5px;
   padding-left: 6px;
-  border-radius: 4px;
+  border-radius: 3px;
   border: 0.5px solid #E5E7EB;
 
   font-size: 0.9rem;
@@ -197,7 +197,7 @@ input {
 
 .form-actions {
   position: relative;
-  min-height: 260px;
+  min-height: 295px;
 }
 
 .form-actions button,
@@ -246,4 +246,11 @@ figcaption a {
 
 #hero {
   background-color: #f5f5f5;
+}
+
+.form-body {
+  background-color: white;
+  box-shadow: 0 4px 10px -5px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 10;
 }
