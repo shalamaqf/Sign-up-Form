@@ -94,7 +94,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 2;
-  height: 100vh;
+  height: 100%;
 }
 
 #hero {
