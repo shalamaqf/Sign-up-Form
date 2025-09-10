@@ -220,7 +220,7 @@ button {
 
 .form-actions p {
   left: 5%;
-  top: 37%;
+  top: 34%;
 
   font-size: 0.92rem;
   transform: scaleY(1.05);
@@ -263,4 +263,9 @@ button {
   color: white;
   background-color: #333333;
   box-shadow: 0 4px 13px -5px rgba(0, 0, 0, 0.4);
+}
+
+.form-actions span {
+  color: #333333;
+  font-weight: bold;
 }
